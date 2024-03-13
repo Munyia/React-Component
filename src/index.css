@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color: darkslategrey;
+  display: flex;
+  margin-top: 5%;
+ padding-left: 3%;
+ padding-right: 3%;
+ background-color:yellowgreen;
+ letter-spacing: 2px;
+}
+#comp{
+  gap: 5%;
+  display: flex;
+}
+#pet{
+width: 55%;
+}

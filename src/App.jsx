@@ -8,9 +8,9 @@ import Price from './Price';
 import Image from './Image';
 
 function App() {
-
+let name= "Munyia"
   return (
-    <>
+    <div id='comp'>
     <Card style={{ width: '18rem' }}>
       <Image/>
       <Card.Body>
@@ -21,7 +21,11 @@ function App() {
         <Button variant="primary"><Price/></Button>
       </Card.Body>
     </Card>
-    </>
+    <h1>Hello {name? name:"there" }</h1>
+    {
+      name && <img id='pet' src= 'https://previews.123rf.com/images/isselee/isselee2210/isselee221000210/192897090-tabby-striped-mixed-breed-cat-and-rottweiler-dog-looking-at-camera-isolated-on-white.jpg'></img>
+    }
+    </div>
   )
 }
 
