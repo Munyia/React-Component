@@ -1,21 +1,24 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- color: darkslategrey;
-  display: flex;
-  margin-top: 5%;
- padding-left: 3%;
- padding-right: 3%;
- background-color:yellowgreen;
- letter-spacing: 2px;
+
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Set font family */
+  color: darkslategrey; /* Set text color */
+  display: flex; /* Use flexbox */
+  margin-top: 5%; /* Set top margin */
+  padding-left: 3%; /* Set left padding */
+  padding-right: 3%; /* Set right padding */
+  background-color: yellowgreen; /* Set background color */
+  letter-spacing: 2px; /* Set letter spacing */
 }
-#comp{
-  gap: 5%;
-  display: flex;
+
+#comp {
+  gap: 5%; /* Set gap between child elements */
+  display: flex; /* Use flexbox */
 }
-#pet{
-width: 55%;
+
+#pet {
+  width: 55%; /* Set width of pet image */
 }
